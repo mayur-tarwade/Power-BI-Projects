@@ -46,6 +46,11 @@ Total Customers - 1.59K
 
 ●	     Are there specific markets where we need to focus our efforts to boost performance?
 
+
 "https://github.com/user-attachments/assets/6050c3dd-cf90-4701-82d9-1397ab07be37"
 
 So, Canada and EMEA are the markets where we need to focus our efforts to boost.
+
+
+![Uploading Dashboard.png…]()
+
