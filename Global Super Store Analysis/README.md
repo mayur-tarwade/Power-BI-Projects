@@ -18,7 +18,7 @@ This dashboard should aim to empower Global Super Store with actionable insights
 
 "https://github.com/user-attachments/assets/54b79fd5-42f1-45fa-8bb9-080510294420"
 
-SO 
+So 
 
 Total Revenue - 12643.25K
 
