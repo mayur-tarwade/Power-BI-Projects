@@ -52,5 +52,7 @@ Total Customers - 1.59K
 So, Canada and EMEA are the markets where we need to focus our efforts to boost.
 
 
-![Uploading Dashboard.png…]()
+<img width="1919" height="1029" alt="Dashboard" src="https://github.com/user-attachments/assets/763e9084-a4d6-4f6a-ae02-c84779dae146" />
+
+
 
