@@ -16,7 +16,8 @@ This dashboard should aim to empower Global Super Store with actionable insights
 
 ●	    How many consumers have we served?
 
-"https://github.com/user-attachments/assets/54b79fd5-42f1-45fa-8bb9-080510294420"
+<img width="649" height="124" alt="Screenshot 2025-07-26_1" src="https://github.com/user-attachments/assets/09b6534a-7154-4571-915f-90b69bd077a5" />
+
 
 So 
 
@@ -30,7 +31,8 @@ Total Customers - 1.59K
 
 ### Q2-     The sales team is looking to identify trends over the years to inform their strategy. They need to see how their annual sales perform Over the year  and on the same graph they also want to know the overall trend and sales of their store over the years.
 
-"https://github.com/user-attachments/assets/18c41b13-687c-4288-b06d-65cf7a3cef1f"
+<img width="1919" height="1030" alt="Screenshot 2025-07-26_2" src="https://github.com/user-attachments/assets/1b936402-e9ff-4615-bed2-e8865596e9ae" />
+
 
 
 ### Q3-    Marketing and finance teams need to understand the seasonality and profitability trends to optimise their campaigns and budgets. Sales and finance teams are working together for this cause, they need a graph that can help them understand.
@@ -38,7 +40,8 @@ Total Customers - 1.59K
 
 ●	   	Are there particular months where profits significantly increase or decrease, indicating potential seasonal trends?
 
-"https://github.com/user-attachments/assets/1ecd5fbc-1104-4d13-a155-b690317b38b6"
+<img width="1917" height="1031" alt="Screenshot 2025-07-26_3" src="https://github.com/user-attachments/assets/44497a29-7cb0-4c57-ae9a-ccb0afdc2731" />
+
 
 
 ### Q4-     The regional managers are keen to understand the performance of different markets to allocate resources effectively.
@@ -46,13 +49,9 @@ Total Customers - 1.59K
 
 ●	     Are there specific markets where we need to focus our efforts to boost performance?
 
-
-"https://github.com/user-attachments/assets/6050c3dd-cf90-4701-82d9-1397ab07be37"
+<img width="1919" height="1028" alt="Screenshot 2025-07-26_4" src="https://github.com/user-attachments/assets/7b574004-a7e5-4db4-8a0b-78db4c8a5ff3" />
 
 So, Canada and EMEA are the markets where we need to focus our efforts to boost.
-
-
-<img width="1919" height="1029" alt="Dashboard" src="https://github.com/user-attachments/assets/763e9084-a4d6-4f6a-ae02-c84779dae146" />
 
 
 
