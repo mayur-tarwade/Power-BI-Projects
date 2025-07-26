@@ -54,8 +54,7 @@ Total Customers - 1.59K
 So, Canada and EMEA are the markets where we need to focus our efforts to boost.
 
 
-
-
+## Dashboard Snaps
 
 <img width="1919" height="1029" alt="Dashboard" src="https://github.com/user-attachments/assets/14dc4b8b-b54a-417b-930a-f0fa2117290e" />
 
