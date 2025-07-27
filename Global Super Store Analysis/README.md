@@ -463,7 +463,8 @@ return
 
 SaleDifference/top1
 
-<img width="769" height="314" alt="image" src="https://github.com/user-attachments/assets/7f6074e4-32b6-4068-8c2c-75dc5af239f4" />
+<img width="1478" height="483" alt="top 10 deviation" src="https://github.com/user-attachments/assets/1119cb85-c19c-4e10-9ecc-500f0a5cb333" />
+
 
 
 
