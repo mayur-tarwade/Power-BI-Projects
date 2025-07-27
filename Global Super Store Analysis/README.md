@@ -501,6 +501,16 @@ if(year = 2016, " ",(current_base - previous_base)/ previous_base)
 
 <img width="458" height="227" alt="y-o-y new customer" src="https://github.com/user-attachments/assets/a3c8bf24-445f-4ac4-93a9-e07279fe650c" />
 
+Retention Table = 
+
+SUMMARIZE(Orders,
+           Orders[Customer ID],
+           "First Purchase Date", min(Orders[Order Date].[Year]), 
+           "Last Purchase Date", max(Orders[Order Date].[Year]))
+
+ <img width="1918" height="1028" alt="retesion table" src="https://github.com/user-attachments/assets/0d904c7d-f4b8-44b7-b053-3c7dc67b256b" />
+
+
 
 
 
