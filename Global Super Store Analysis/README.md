@@ -84,6 +84,12 @@ so because of above slection the visuals dont get filter as per the slicers sele
 <img width="1919" height="1030" alt="Target" src="https://github.com/user-attachments/assets/b0242656-975c-4698-b599-245d48da7b51" />
 <img width="1917" height="1029" alt="away from Target" src="https://github.com/user-attachments/assets/3f4f156b-1884-48e2-814f-27624b4ddff1" />
 
+## Q9 Management has identified an operational challenge: when selecting any slicer, transitioning back to the default view becomes cumbersome and time-consuming. To streamline this process, they have requested the implementation of a dedicated button. This button will enable them to swiftly return to the default view with a single click, eliminating the need to manually deselect each slicer. This enhancement aims to enhance user experience by providing a more intuitive and efficient navigation option within the dashboard.
+
+We have provided clear button on slicers with which user can deselect all the slicers.
+<img width="203" height="362" alt="Slicers_2" src="https://github.com/user-attachments/assets/fa8dcf62-54fe-4be6-96a3-f6801e267bad" />
+
+
 
 
 
