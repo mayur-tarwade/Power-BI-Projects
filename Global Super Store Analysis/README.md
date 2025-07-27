@@ -213,14 +213,14 @@ return
 
     Age Category = 
     
-var Age = DATEDIFF (Customer [Date of Birth], DATE (2019,12,31), YEAR)
-return
-    SWITCH (TRUE (),
-            Age<=19,"Teen",
-            Age>20 && Age<=30,"Young",
-            Age>30 && Age< 40,"Adult",
-            Age>40 && Age< 50,"Old Adult",
-            "Old")
+   var Age = DATEDIFF (Customer [Date of Birth], DATE (2019,12,31), YEAR)
+   return
+   SWITCH (TRUE (),
+           Age<=19,"Teen",
+           Age>20 && Age<=30,"Young",
+           Age>30 && Age< 40,"Adult",
+           Age>40 && Age< 50,"Old Adult",
+           "Old")
             
 Income Group = 
 
