@@ -378,6 +378,41 @@ return
 It seems that there is only two quaters data available for the year of 2019.
 
 
+### Q33 The client wishes to know the number of churned customers for the years 2016, 2017, and 2018. The CEO is now interested in knowing how far we need to go in customer retention services.
+
+IN this problem first we formulate the churned customer. for that we created Retention Table
+
+Retention Table = 
+
+SUMMARIZE(Orders,
+
+           Orders[Customer ID],
+
+           "First Purchase Date", YEAR(min(Orders[Order Date])), 
+
+           "Last Purchase Date", YEAR(max(Orders[Order Date])))
+
+After this we formulate the count of customer churned by year
+
+Custmr_churn_by_Year = 
+
+var year = SELECTEDVALUE(Orders[Order Date].[Year])
+
+return
+
+if (year = 2016, COUNTROWS(FILTER('Retention Table', 'Retention Table'[Last Purchase Date]=year)),
+
+if(year = 2017, COUNTROWS(FILTER('Retention Table', 'Retention Table'[Last Purchase Date]=year)), COUNTROWS(FILTER('Retention Table', 'Retention Table'[Last Purchase Date]=2018))))
+
+
+But this formula is only for year 2016 to 2018 but if we want it for multiple years then we can have optimized code as
+
+COUNTROWS(FILTER('Retention Table', 'Retention Table'[Last Purchase Date]=year))
+
+<img width="266" height="209" alt="Customer Churn" src="https://github.com/user-attachments/assets/18e9b514-7ea7-485a-97c7-f5527fdc91ba" />
+
+
+
 
 
 
