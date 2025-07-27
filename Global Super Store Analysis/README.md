@@ -449,6 +449,25 @@ Rank of Managers = if(RANKX(all(People[Name]), [Sales Measure])<4, RANKX(all(Peo
 <img width="1195" height="431" alt="top 3 mngr" src="https://github.com/user-attachments/assets/9b916bc2-a268-405f-b624-3115f9609ffd" />
 
 
+### Q38 Assess how much the sales value of the top-ranked country deviates from the sales values of other countries within the top 10. This analysis will highlight the performance gap between the leading country and its peers, offering insights into potential areas for growth and improvement in underperforming regions.
+
+Rank of Ctry = RANKX(all(Orders[CONTRY]), [Sales Measure])
+
+Deviation = 
+
+var top1 =CALCULATE(MAXX(TOPN(1, all(Orders[CONTRY]),[Sales Measure],DESC),[Sales Measure]))
+var Sale = [Sales Measure]
+var SaleDifference = top1-Sale
+
+return
+
+SaleDifference/top1
+
+<img width="769" height="314" alt="image" src="https://github.com/user-attachments/assets/7f6074e4-32b6-4068-8c2c-75dc5af239f4" />
+
+
+
+
 
 
 
