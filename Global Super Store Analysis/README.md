@@ -121,6 +121,11 @@ Once you click on this button you will get window as shown in below snap.
  
  <img width="1919" height="1030" alt="image" src="https://github.com/user-attachments/assets/f5b705ab-ad37-4902-becc-637f4b7dc087" />
 
+ ## Q15 Clients have also come out with a challenging problem: they want a bar chart only (2d graph) that will show sales per year and by region, because the current approach to analysing yearly sales trends lacks depth and fails to provide actionable insights into regional sales dynamics.
+
+ <img width="1918" height="1031" alt="image" src="https://github.com/user-attachments/assets/ff9d9b17-ecdc-4c33-ab55-4b0371c95d18" />
+
+
 
 
 
