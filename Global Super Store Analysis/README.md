@@ -116,6 +116,10 @@ Once you click on this button you will get window as shown in below snap.
  <img width="1919" height="1031" alt="sum of sale and profit by region" src="https://github.com/user-attachments/assets/3d552f27-1e9b-45fe-afb0-a51ca9f77c08" />
 
 
+ <img width="1919" height="1030" alt="image" src="https://github.com/user-attachments/assets/f5b705ab-ad37-4902-becc-637f4b7dc087" />
+
+
+
 
 
 
