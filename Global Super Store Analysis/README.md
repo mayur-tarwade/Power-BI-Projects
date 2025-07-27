@@ -161,6 +161,32 @@ Whenever you use var you must have to use return, otherwise value won’t get di
 
 <img width="1919" height="1029" alt="image" src="https://github.com/user-attachments/assets/f1762a61-4ec5-4509-bc4b-e9add0607a1e" />
 
+## Q19 The company, CA, seeks a comprehensive analysis of sales data segmented by financial months and financial quarters. This breakdown will reveal sales performance trends and patterns within each fiscal period, facilitating effective strategic planning and accurate financial forecasting.
+
+So, Financial years start with April and ends at March (1st April to 31st March)
+Logic will month>3, month-3 else month+9
+
+Financial Month = 
+
+var fmon = MONTH (Orders [Order Date])
+return
+if(fmon>3, fmon-3, fmon+9)
+
+<img width="1919" height="1030" alt="image" src="https://github.com/user-attachments/assets/2e6079ce-e851-4e94-9a6d-eccf01a732b2" />
+
+Financial Quarter = 
+
+var fqtr = QUARTER (Orders [Order Date])
+return
+if(fqtr>=2, fqtr-1, fqtr+3)
+
+<img width="1919" height="1030" alt="image" src="https://github.com/user-attachments/assets/bcb08582-bda8-4a61-ae4d-91cc7751c677" />
+
+
+
+
+
+
 
 
 
