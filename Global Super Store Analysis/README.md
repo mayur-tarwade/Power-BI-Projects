@@ -411,6 +411,23 @@ COUNTROWS(FILTER('Retention Table', 'Retention Table'[Last Purchase Date]=year))
 
 <img width="266" height="209" alt="Customer Churn" src="https://github.com/user-attachments/assets/18e9b514-7ea7-485a-97c7-f5527fdc91ba" />
 
+### Q34 The client requires a visual that displays the top-selling product in each country. This visual should highlight the most popular products in different regions and provide insights into regional preferences and market demand. It will be useful for targeted marketing and inventory management strategies.
+
+MostSoldProduct = 
+
+var TopProduct = 
+
+TOPN(1,
+
+SUMMARIZE(Orders,Orders[Region],Orders[Product Name],"Total", sum(Orders[Quantity])),[Total], DESC)
+
+RETURN
+
+MAXX(TopProduct, Orders[Product Name])
+
+<img width="531" height="440" alt="most sold product" src="https://github.com/user-attachments/assets/0fc1cfd7-76e1-424d-87e4-682df51aa77c" />
+
+
 
 
 
