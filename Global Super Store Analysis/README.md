@@ -113,17 +113,7 @@ Once you click on this button you will get window as shown in below snap.
 
 
 
-## Dashboard Snaps
 
-<img width="1919" height="1029" alt="Dashboard" src="https://github.com/user-attachments/assets/14dc4b8b-b54a-417b-930a-f0fa2117290e" />
-
-<img width="1919" height="1030" alt="Dashboard_2" src="https://github.com/user-attachments/assets/4dc120f0-44ae-48a7-9f97-5c1d83085f57" />
-
-<img width="1919" height="1030" alt="Dashboard_3" src="https://github.com/user-attachments/assets/da606f81-4c3e-4506-b8c0-9a9d6081617f" />
-
-<img width="1919" height="1030" alt="Dashboard_4" src="https://github.com/user-attachments/assets/d8ba1b26-6138-44a0-ba7d-3052fdb751e5" />
-
-<img width="1919" height="1031" alt="Dashboard_5" src="https://github.com/user-attachments/assets/b19ae954-a065-43b5-ac5a-59c93764e9c1" />
 
 
 
