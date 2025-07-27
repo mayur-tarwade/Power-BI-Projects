@@ -126,6 +126,16 @@ Once you click on this button you will get window as shown in below snap.
  <img width="1918" height="1031" alt="image" src="https://github.com/user-attachments/assets/ff9d9b17-ecdc-4c33-ab55-4b0371c95d18" />
 
 
+ ## Q16 As Global SuperStore has been your client for a long time and this is the time to give them the customer loyalty award, your boss asked you to create some free visuals for them that could help them in enhancing and building their business and strategy.
+
+ Free Visuals
+ <img width="1919" height="1029" alt="image" src="https://github.com/user-attachments/assets/be2d17cd-e8c6-4a32-89ab-366f31c06f58" />
+
+ <img width="1919" height="1031" alt="image" src="https://github.com/user-attachments/assets/eb6e4825-a45a-4a56-99f1-3144088c794d" />
+
+
+
+
 
 
 
