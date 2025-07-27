@@ -572,6 +572,67 @@ return
 <img width="965" height="199" alt="image" src="https://github.com/user-attachments/assets/4ff759be-38eb-4c14-a30e-dbf8d848ff06" />
 
 
+### Q44 What is the percentage of quantity sold of leather Arm chair ,  rocking chair, adjustable chairs in Chairs sub-category.
+
+Leather Arm Chair = 
+
+var total_larm_chair = CALCULATE(SUM(Orders[Quantity]),FILTER(Orders, SEARCH("leather Armchair", Orders[Product Name], 1, 0)>0))
+
+var Chairs_total = CALCULATE(SUM(Orders[Quantity]),FILTER(Orders, Orders[Sub-Category]="Chairs"))
+
+return
+
+Rocking Chair = 
+
+var total_rokng_chair = CALCULATE(SUM(Orders[Quantity]),FILTER(Orders, SEARCH("rocking chair", Orders[Product Name], 1, 0)>0))
+
+var Chairs_total = CALCULATE(SUM(Orders[Quantity]),FILTER(Orders, Orders[Sub-Category]="Chairs"))
+
+return
+
+(total_rokng_chair/Chairs_total)*100
+
+<img width="908" height="183" alt="image" src="https://github.com/user-attachments/assets/ea7e7c56-8545-4490-9d70-2f1ebb916b3e" />
+
+
+### Q45 What is the percentage of iPhone, Samsung, Motorola phones sold to total phones sold.
+
+iPhone = 
+
+var total_iphone = CALCULATE(SUM(Orders[Quantity]),FILTER(Orders, SEARCH("Apple Smart Phone", Orders[Product Name], 1, 0)>0))
+
+var Phone_total = CALCULATE(SUM(Orders[Quantity]),FILTER(Orders, Orders[Sub-Category]="Phones"))
+
+return
+(total_iphone/Phone_total)*100
+
+
+Samsung = 
+
+var total_samsung = CALCULATE(SUM(Orders[Quantity]),FILTER(Orders, SEARCH("Samsung Smart Phone", Orders[Product Name], 1, 0)>0))
+
+var Phone_total = CALCULATE(SUM(Orders[Quantity]),FILTER(Orders, Orders[Sub-Category]="Phones"))
+
+return
+(total_samsung/Phone_total)*100
+
+
+Motorola = 
+
+var total_motorola = CALCULATE(SUM(Orders[Quantity]),FILTER(Orders, SEARCH("Motorola Smart Phone", Orders[Product Name], 1, 0)>0))
+
+var Phone_total = CALCULATE(SUM(Orders[Quantity]),FILTER(Orders, Orders[Sub-Category]="Phones"))
+
+return
+(total_motorola/Phone_total)*100
+
+<img width="943" height="181" alt="image" src="https://github.com/user-attachments/assets/14ccd916-6186-447e-84b6-c97f825fe66b" />
+
+
+
+
+
+
 
 
 
