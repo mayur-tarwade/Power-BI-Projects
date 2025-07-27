@@ -325,6 +325,20 @@ Average =
 
   <img width="1106" height="451" alt="Avg Order Value" src="https://github.com/user-attachments/assets/71d018bc-86b3-42da-8b0b-9ca481e2d573" />
 
+  ### Q29 The client requests the creation of a visual representation of sales data with a specific focus on country rankings. This visual should highlight and display only the countries that fall between the 11th and 19th positions based on their sales figures. The goal is to provide a clear understanding of the sales performance of countries that are mid-ranked in this range.
+
+  [Sale Measure] = 
+  
+  SUM(Orders[Sale])
+
+Rank Of Country = 
+
+IF(RANKX(all (Orders[CONTRY]),[Sales Measure]) > 10 && RANKX(all (Orders[CONTRY]),[Sales Measure])<20 , [Sales Measure], BLANK())
+
+<img width="1112" height="478" alt="Rank of Country" src="https://github.com/user-attachments/assets/114cf57b-0fec-44ce-b523-eb03bcee64bc" />
+
+
+
 
 
 
