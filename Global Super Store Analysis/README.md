@@ -138,6 +138,30 @@ Once you click on this button you will get window as shown in below snap.
 
 <img width="1919" height="1031" alt="image" src="https://github.com/user-attachments/assets/8fdc4fa5-bcc0-4aac-b790-b834ade5f8cf" />
 
+## Q18 The client requires a detailed analysis to understand sales patterns based on the day of the week. They need a pie chart that visually compares the average sales volumes on weekends versus weekdays. This will help in identifying any significant differences in consumer behaviour and sales performance, enabling more informed strategic decisions for marketing and resource allocation.
+
+Switch:
+Weekend/Weekday = SWITCH (Orders [Day Name],
+                                                        “Saturday”, “Weekend”,
+                                                         “Sunday”, “Weekend”,
+                                                          “Weekday” )
+ So basic syntax of switch is SWITCH (Expression/test, Value1, Result1, Value2, Result2, Else if test fails)
+ 
+<img width="984" height="213" alt="image" src="https://github.com/user-attachments/assets/f3ec21e8-335c-46f1-a9ee-7a3c968c84b8" />
+
+Another Approach:
+Weekend/Weekday
+var days = FORMAT (Orders [Order Date], ”dddd”)
+return
+if (days in {“Saturday”, “Sunday”},” Weekend”, “Weekday”)
+
+Whenever you use var you must have to use return, otherwise value won’t get displayed/print.
+
+<img width="1919" height="1029" alt="image" src="https://github.com/user-attachments/assets/f1762a61-4ec5-4509-bc4b-e9add0607a1e" />
+
+
+
+
 
 
 
