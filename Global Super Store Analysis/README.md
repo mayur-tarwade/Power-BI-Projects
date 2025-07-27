@@ -100,6 +100,24 @@ Once you click on this button you will get window as shown in below snap.
 
 <img width="1505" height="728" alt="ask anything_2" src="https://github.com/user-attachments/assets/797d5ccd-65ec-40f3-aada-56e097fffc1d" />
 
+## Q11 Global Super Store seeks to enhance its regional performance analysis and resource allocation strategy. They want to understand which geographic country is driving high sales and where profitability is strongest. Rather than bar chart or line chart they need some visuals in the form of maps,The visuals should be very understandable and interactive.
+<img width="1919" height="1031" alt="sum of profit by country" src="https://github.com/user-attachments/assets/921b1b2e-b934-4661-be0e-4c8b7d6483ff" />
+
+
+## Q12 The client has specified some visualisation specifications to you: -
+ He wants that in the visuals that will display the profit chart, the colour of the country with lowest profit should be red and colour of country with the highest profit to be green and in between values to be coloured as gradient.
+For the visual that will be displaying the sales, client have made a request to show that the countries where sales are
+ <80,000 should be coloured dark red,
+ between 80,000 to 200000 it should be red,
+ between 200000 to 700000 it should be green,
+ and above 700000 it should be golden.
+
+ <img width="1919" height="1031" alt="sum of sale by country with color" src="https://github.com/user-attachments/assets/9738dcf3-5f47-47f9-8efe-079d2741304e" />
+
+
+
+
+
 
 
 
