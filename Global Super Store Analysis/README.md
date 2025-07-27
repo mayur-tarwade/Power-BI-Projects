@@ -303,6 +303,22 @@ Average =
 
   <img width="828" height="673" alt="image" src="https://github.com/user-attachments/assets/1481923e-48df-4969-b414-3fd61e9d7c33" />
 
+  ### Q27 The client has requested an enhancement to the previously created sales visual (Desired Sales). They would like the visual to display the variance between the desired sales of 2019 and desired sales of 2018 or the same date values.
+
+  Desired Sale Variance = 
+  
+  var Twenty_ninteen = CALCULATE(sum(Orders[Sales]), FILTER(Orders,Orders[Order Date]>DATE(2019, 4, 15)), FILTER(Orders,Orders[Order Date]<DATE(2019, 11, 15)))
+  
+  var Twenty_eighteen = CALCULATE(sum(Orders[Sales]), FILTER(Orders,Orders[Order Date]>DATE(2018, 4, 15)), FILTER(Orders,Orders[Order Date]<DATE(2018, 11, 15)))
+  
+  return 
+  
+  ((Twenty_ninteen-Twenty_eighteen)/(Twenty_ninteen))*100
+
+  <img width="712" height="347" alt="variance" src="https://github.com/user-attachments/assets/2205950a-307c-411b-b423-03ad6517f13a" />
+
+
+
 
 
 
