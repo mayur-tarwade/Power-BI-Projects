@@ -526,6 +526,59 @@ if ([Profit Percentage]>=minimum&& [Profit Percentage]<=maximum, [Profit Percent
 <img width="937" height="348" alt="country in profit range" src="https://github.com/user-attachments/assets/3a1eccc3-20f5-48d3-ae95-fc440b89e696" />
 
 
+### Q41 Find the total numbers of orders returned per market, and also analyse the returns for each market on the basis of segment.
+
+just drag and drop.
+
+<img width="993" height="367" alt="image" src="https://github.com/user-attachments/assets/251f2cb7-39bd-46a9-954b-8d5a6c943f0d" />
+
+
+### Q42 3.	Show the number of companies, dealing in each category and subcategory, so that client can have an overview of the diversities of the company.
+
+We don’t have any column as Company but if you look at Product Name column then you will easily come to know that 1st Text before space is company name hence, we can go to Transform data and we can add new column with Text before delimiter option.
+
+<img width="292" height="475" alt="image" src="https://github.com/user-attachments/assets/ca422dcf-5add-4d7a-9ab3-3a3423958e3f" />
+
+
+### Q 43 What is the percentage of quantity sold of routers, keyboards, headsets to total quantity sold in Accessories sub-category.
+
+Router % = 
+
+var total_routers = CALCULATE(SUM(Orders[Quantity]),FILTER(Orders, SEARCH("router", Orders[Product Name], 1, 0)>0))
+
+var Accessories_total = CALCULATE(SUM(Orders[Quantity]),FILTER(Orders, Orders[Sub-Category]="Accessories"))
+
+return
+(total_routers/Accessories_total)*100
+
+Keyboard % = 
+
+var total_routers = CALCULATE(SUM(Orders[Quantity]),FILTER(Orders, SEARCH("keyboard", Orders[Product Name], 1, 0)>0))
+
+var Accessories_total = CALCULATE(SUM(Orders[Quantity]),FILTER(Orders, Orders[Sub-Category]="Accessories"))
+
+return
+(total_routers/Accessories_total)*100
+
+Headset % = 
+
+var total_routers = CALCULATE(SUM(Orders[Quantity]),FILTER(Orders, SEARCH("Headset", Orders[Product Name], 1, 0)>0))
+
+var Accessories_total = CALCULATE(SUM(Orders[Quantity]),FILTER(Orders, Orders[Sub-Category]="Accessories"))
+
+return
+(total_routers/Accessories_total)*100
+
+<img width="965" height="199" alt="image" src="https://github.com/user-attachments/assets/4ff759be-38eb-4c14-a30e-dbf8d848ff06" />
+
+
+
+
+
+
+
+
+
 
 
 
