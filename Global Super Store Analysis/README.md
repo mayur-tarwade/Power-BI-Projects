@@ -346,8 +346,11 @@ ALCULATE(sum(Orders[Sales]), Orders[Order Date].[Year]<= SELECTEDVALUE(Orders[Or
 Cumulative sum = 
 
 2016 - 2016
+
 2017 - 2016+2017
+
 2018 - 2016+2017+2018
+
 2019 -2016+2017+2018+2019
 
 <img width="273" height="166" alt="cumsum" src="https://github.com/user-attachments/assets/d3c0c88a-5cbb-4957-8fb2-4a911dce4972" />
