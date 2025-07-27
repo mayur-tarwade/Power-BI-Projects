@@ -132,6 +132,13 @@ Once you click on this button you will get window as shown in below snap.
  <img width="1919" height="1029" alt="image" src="https://github.com/user-attachments/assets/be2d17cd-e8c6-4a32-89ab-366f31c06f58" />
 
  <img width="1919" height="1031" alt="image" src="https://github.com/user-attachments/assets/eb6e4825-a45a-4a56-99f1-3144088c794d" />
+ 
+
+## Q17 The client requires a visual representation to display the status of order processing. Orders will be classified as delayed if the shipping date exceeds the order date by more than two days.
+
+<img width="1919" height="1031" alt="image" src="https://github.com/user-attachments/assets/8fdc4fa5-bcc0-4aac-b790-b834ade5f8cf" />
+
+
 
 
 
