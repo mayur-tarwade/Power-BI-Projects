@@ -276,6 +276,22 @@ return
 
 <img width="1106" height="515" alt="CLV" src="https://github.com/user-attachments/assets/f864df87-e028-4a8a-a1ec-add8f2bfc4a9" />
 
+### Q25 The Global Super Store Marketing team is interested in understanding how individuals of a specific gender, earning either above or below the average income for their gender, prefer ordering different subcategories across various regions. Based on this information, the marketing team aims to develop a targeted strategy.
+
+Average =
+
+ var male = CALCULATE(AVERAGE(Customer[Yearly Income]), FILTER(Customer,Customer[Gender] = "M"))
+ 
+ var female = CALCULATE(AVERAGE(Customer[Yearly Income]), FILTER(Customer,Customer[Gender] = "F"))
+ 
+ return
+ if(male>Customer[Yearly Income] && Customer[Gender] = "M", "Under Average",
+    if(female>Customer[Yearly Income] && Customer[Gender] = "F", "Under Average","Over Average"))
+
+  <img width="1919" height="1030" alt="Region and age category" src="https://github.com/user-attachments/assets/e9633b86-16c2-4948-ac53-e96b2a0a98af" />
+
+
+
 
 
 
