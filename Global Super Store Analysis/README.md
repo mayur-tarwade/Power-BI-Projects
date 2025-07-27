@@ -79,6 +79,11 @@ so because of above slection the visuals dont get filter as per the slicers sele
 
 <img width="1122" height="536" alt="Edit interaction-2" src="https://github.com/user-attachments/assets/fafc75f7-43b2-49d6-9dc4-ee9b88ce5ba8" />
 
+## Q8 In 2016, the company set a 5-year target to achieve an overall sales goal of $25 million and a profit goal of $10 million by the end of 2020. According to this plan, by the end of 2019, the company should have reached a sales target of $20 million. This equates to approximately $1.7 million in sales per month(collectively) from 2016 to 2019.
+ As the company is far beyond the target to be achieved, the company is now interested in seeing for each month collectively (2016-2019) fluctuations of our sales performance from the target help company visualise this.
+
+<img width="1919" height="1030" alt="Target" src="https://github.com/user-attachments/assets/b0242656-975c-4698-b599-245d48da7b51" />
+
 
 
 
