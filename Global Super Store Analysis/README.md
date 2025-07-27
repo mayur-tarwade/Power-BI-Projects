@@ -117,6 +117,8 @@ Once you click on this button you will get window as shown in below snap.
 
 ## Q14 We need to understand how different product segments are performing as compared to other segments. BA team needs an interactive chart that displays sales figures for each product segment, this chart should clearly show each segment's sales as a percentage of both the previous segment and the top category.
 
+ We can use funnel chart for this.
+ 
  <img width="1919" height="1030" alt="image" src="https://github.com/user-attachments/assets/f5b705ab-ad37-4902-becc-637f4b7dc087" />
 
 
