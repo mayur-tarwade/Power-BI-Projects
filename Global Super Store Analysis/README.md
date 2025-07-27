@@ -186,7 +186,7 @@ if(fqtr>=2, fqtr-1, fqtr+3)
 
 Cost/unit = 
 
-(Orders [Sale]-Orders [Price]-Orders [Shipping Cost]/Orders [Quantity])
+(Orders[Sale]-Orders[Price]-Orders[Shipping Cost]/Orders[Quantity])
 
 <img width="1918" height="1031" alt="image" src="https://github.com/user-attachments/assets/5ef07146-91ea-425e-8f56-d992451b1e81" />
 
