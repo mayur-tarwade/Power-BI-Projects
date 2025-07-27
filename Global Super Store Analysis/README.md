@@ -442,6 +442,13 @@ Rank_1/yr = if (RANKX(all(Orders[Category]),[Sales Measure]) = 1, [Sales Measure
 
 <img width="438" height="391" alt="image" src="https://github.com/user-attachments/assets/d1faa9d6-d71e-4451-8b76-bf2037cd0a37" />
 
+### Q37 For each year, identify the top 3 managers annually based on the total sales they generated. This analysis will provide insights into the most effective leaders in driving sales performance, allowing the company to recognize and reward top talent, and replicate successful strategies across different regions.
+
+Rank of Managers = if(RANKX(all(People[Name]), [Sales Measure])<4, RANKX(all(People[Name]), [Sales Measure]), BLANK())
+
+<img width="1195" height="431" alt="top 3 mngr" src="https://github.com/user-attachments/assets/9b916bc2-a268-405f-b624-3115f9609ffd" />
+
+
 
 
 
