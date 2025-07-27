@@ -337,6 +337,23 @@ IF(RANKX(all (Orders[CONTRY]),[Sales Measure]) > 10 && RANKX(all (Orders[CONTRY]
 
 <img width="1112" height="478" alt="Rank of Country" src="https://github.com/user-attachments/assets/114cf57b-0fec-44ce-b523-eb03bcee64bc" />
 
+### Q30 The client desires a visual representation of the cumulative sales sum for each year. This visual should clearly illustrate the progressive accumulation of sales over time within each year.
+
+Cumulative Sum = 
+
+ALCULATE(sum(Orders[Sales]), Orders[Order Date].[Year]<= SELECTEDVALUE(Orders[Order Date].[Year]))
+
+Cumulative sum = 
+
+2016 - 2016
+2017 - 2016+2017
+2018 - 2016+2017+2018
+2019 -2016+2017+2018+2019
+
+<img width="273" height="166" alt="cumsum" src="https://github.com/user-attachments/assets/d3c0c88a-5cbb-4957-8fb2-4a911dce4972" />
+
+
+
 
 
 
