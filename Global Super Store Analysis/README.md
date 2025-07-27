@@ -108,6 +108,16 @@ Once you click on this button you will get window as shown in below snap.
 
  <img width="1919" height="1031" alt="sum of sale by country with color" src="https://github.com/user-attachments/assets/9738dcf3-5f47-47f9-8efe-079d2741304e" />
 
+ <img width="1916" height="1030" alt="sum of sale by country with color_2" src="https://github.com/user-attachments/assets/bb4e3c51-7ebd-4480-a291-efc5de6f5f96" />
+
+
+ ## Q13 The client is happy with your work and wants to continue with you for further Business Intelligence. They have produced a quick requirement. The company core team has a meeting and they must discuss some topics. They have advised the BA team to give their input for this meeting which is scheduled in the next 1.5 hours. BA Team approached you to build some visuals, however due to time constraint they want you to build those visuals in next 25 minutes only, so that rest 1 hour can be spent by BA team on those visuals to form some inputs. ·   	Global Super Store needs to understand which regions are driving the highest sales and profitability. Develop a visual that clearly depicts the sum of sales and profit across different regions.
+
+ <img width="1919" height="1031" alt="sum of sale and profit by region" src="https://github.com/user-attachments/assets/3d552f27-1e9b-45fe-afb0-a51ca9f77c08" />
+
+
+
+
 
 
 
