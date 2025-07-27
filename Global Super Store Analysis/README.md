@@ -53,11 +53,11 @@ Total Customers - 1.59K
 
 So, Canada and EMEA are the markets where we need to focus our efforts to boost.
 
-## Q5-   To  Boost their business, Global Superstore thought of planning their business quarterly. For that they need to know their overall sales for each quarter.
+### Q5-   To  Boost their business, Global Superstore thought of planning their business quarterly. For that they need to know their overall sales for each quarter.
 
 <img width="1920" height="1032" alt="Screenshot 2025-07-26_5" src="https://github.com/user-attachments/assets/96266b47-8e1d-4d04-8bb9-01dee264722c" />
 
-# Q6-    After these visuals are built, management would like to incorporate a feature allowing them to select specific segments and categories. This functionality should dynamically adjust all the graph values based on the selected category and segment, providing a tailored view of their data.
+### Q6-    After these visuals are built, management would like to incorporate a feature allowing them to select specific segments and categories. This functionality should dynamically adjust all the graph values based on the selected category and segment, providing a tailored view of their data.
 
 To incorporate this feature we have used slicers of Segment and Category. As shown in below snap we see that Segment selected is Consumer and Category is Office Supplies.
 
@@ -69,7 +69,7 @@ and all the visual will changes as per these selection.
 
 The company is pleased with the dashboard you have built so far; however, the company has suggested some new additions and some editing.
  
-## Q7 The CEO observed that the total sales and total profit values fluctuate with interactions on the graph. They now require a fixed value for these metrics, separately from the dynamic values that change with visual interactions, so that they can always have an eye on the totals.
+### Q7 The CEO observed that the total sales and total profit values fluctuate with interactions on the graph. They now require a fixed value for these metrics, separately from the dynamic values that change with visual interactions, so that they can always have an eye on the totals.
 
 For this we have to disconnect the visual's interaction with all the visuals. This option is avaulable in Formate tab as Edit Interactions.We have to select None option wich is gray in snap.
 
@@ -79,18 +79,18 @@ so because of above slection the visuals dont get filter as per the slicers sele
 
 <img width="1122" height="536" alt="Edit interaction-2" src="https://github.com/user-attachments/assets/fafc75f7-43b2-49d6-9dc4-ee9b88ce5ba8" />
 
-## Q8 In 2016, the company set a 5-year target to achieve an overall sales goal of $25 million and a profit goal of $10 million by the end of 2020. According to this plan, by the end of 2019, the company should have reached a sales target of $20 million. This equates to approximately $1.7 million in sales per month(collectively) from 2016 to 2019.As the company is far beyond the target to be achieved, the company is now interested in seeing for each month collectively (2016-2019) fluctuations of our sales performance from the target help company visualise this.Company is also interested in seeing a visual of how far they are from the set profit target.
+### Q8 In 2016, the company set a 5-year target to achieve an overall sales goal of $25 million and a profit goal of $10 million by the end of 2020. According to this plan, by the end of 2019, the company should have reached a sales target of $20 million. This equates to approximately $1.7 million in sales per month(collectively) from 2016 to 2019.As the company is far beyond the target to be achieved, the company is now interested in seeing for each month collectively (2016-2019) fluctuations of our sales performance from the target help company visualise this.Company is also interested in seeing a visual of how far they are from the set profit target.
 
 <img width="1919" height="1030" alt="Target" src="https://github.com/user-attachments/assets/b0242656-975c-4698-b599-245d48da7b51" />
 <img width="1917" height="1029" alt="away from Target" src="https://github.com/user-attachments/assets/3f4f156b-1884-48e2-814f-27624b4ddff1" />
 
-## Q9 Management has identified an operational challenge: when selecting any slicer, transitioning back to the default view becomes cumbersome and time-consuming. To streamline this process, they have requested the implementation of a dedicated button. This button will enable them to swiftly return to the default view with a single click, eliminating the need to manually deselect each slicer. This enhancement aims to enhance user experience by providing a more intuitive and efficient navigation option within the dashboard.
+### Q9 Management has identified an operational challenge: when selecting any slicer, transitioning back to the default view becomes cumbersome and time-consuming. To streamline this process, they have requested the implementation of a dedicated button. This button will enable them to swiftly return to the default view with a single click, eliminating the need to manually deselect each slicer. This enhancement aims to enhance user experience by providing a more intuitive and efficient navigation option within the dashboard.
 
 We have provided clear button on slicers with which user can deselect all the slicers.
 
 <img width="203" height="362" alt="Slicers_2" src="https://github.com/user-attachments/assets/fa8dcf62-54fe-4be6-96a3-f6801e267bad" />
 
-## Q10 Global Superstore has been frequenting your desk with numerous minor queries, causing interruptions to other ongoing projects within the company. In response to this challenge, your boss has tasked you with developing a solution that empowers end-users (Global Super Store) to obtain answers to their questions independently. By implementing a user-friendly tool or feature, such as a searchable database or an interactive FAQ system, users can simply type their queries and retrieve instant responses. This initiative aims to enhance efficiency, reduce dependency on direct support, and allow for smoother workflow across all projects.
+### Q10 Global Superstore has been frequenting your desk with numerous minor queries, causing interruptions to other ongoing projects within the company. In response to this challenge, your boss has tasked you with developing a solution that empowers end-users (Global Super Store) to obtain answers to their questions independently. By implementing a user-friendly tool or feature, such as a searchable database or an interactive FAQ system, users can simply type their queries and retrieve instant responses. This initiative aims to enhance efficiency, reduce dependency on direct support, and allow for smoother workflow across all projects.
 
 For this we have provided in-build feature of power bi that F&A Ask Anything button.
 
@@ -100,33 +100,33 @@ Once you click on this button you will get window as shown in below snap.
 
 <img width="1505" height="728" alt="ask anything_2" src="https://github.com/user-attachments/assets/797d5ccd-65ec-40f3-aada-56e097fffc1d" />
 
-## Q11 Global Super Store seeks to enhance its regional performance analysis and resource allocation strategy. They want to understand which geographic country is driving high sales and where profitability is strongest. Rather than bar chart or line chart they need some visuals in the form of maps,The visuals should be very understandable and interactive.
+### Q11 Global Super Store seeks to enhance its regional performance analysis and resource allocation strategy. They want to understand which geographic country is driving high sales and where profitability is strongest. Rather than bar chart or line chart they need some visuals in the form of maps,The visuals should be very understandable and interactive.
 <img width="1919" height="1031" alt="sum of profit by country" src="https://github.com/user-attachments/assets/921b1b2e-b934-4661-be0e-4c8b7d6483ff" />
 
 
-## Q12 The client has specified some visualisation specifications to you: -He wants that in the visuals that will display the profit chart, the colour of the country with lowest profit should be red and colour of country with the highest profit to be green and in between values to be coloured as gradient.For the visual that will be displaying the sales, client have made a request to show that the countries where sales are <80,000 should be coloured dark red, between 80,000 to 200000 it should be red, between 200000 to 700000 it should be green, and above 700000 it should be golden.
+### Q12 The client has specified some visualisation specifications to you: -He wants that in the visuals that will display the profit chart, the colour of the country with lowest profit should be red and colour of country with the highest profit to be green and in between values to be coloured as gradient.For the visual that will be displaying the sales, client have made a request to show that the countries where sales are <80,000 should be coloured dark red, between 80,000 to 200000 it should be red, between 200000 to 700000 it should be green, and above 700000 it should be golden.
 
  <img width="1919" height="1031" alt="sum of sale by country with color" src="https://github.com/user-attachments/assets/9738dcf3-5f47-47f9-8efe-079d2741304e" />
 
  <img width="1916" height="1030" alt="sum of sale by country with color_2" src="https://github.com/user-attachments/assets/bb4e3c51-7ebd-4480-a291-efc5de6f5f96" />
 
 
- ## Q13 The client is happy with your work and wants to continue with you for further Business Intelligence. They have produced a quick requirement. The company core team has a meeting and they must discuss some topics. They have advised the BA team to give their input for this meeting which is scheduled in the next 1.5 hours. BA Team approached you to build some visuals, however due to time constraint they want you to build those visuals in next 25 minutes only, so that rest 1 hour can be spent by BA team on those visuals to form some inputs. ·   	Global Super Store needs to understand which regions are driving the highest sales and profitability. Develop a visual that clearly depicts the sum of sales and profit across different regions.
+ ### Q13 The client is happy with your work and wants to continue with you for further Business Intelligence. They have produced a quick requirement. The company core team has a meeting and they must discuss some topics. They have advised the BA team to give their input for this meeting which is scheduled in the next 1.5 hours. BA Team approached you to build some visuals, however due to time constraint they want you to build those visuals in next 25 minutes only, so that rest 1 hour can be spent by BA team on those visuals to form some inputs. ·   	Global Super Store needs to understand which regions are driving the highest sales and profitability. Develop a visual that clearly depicts the sum of sales and profit across different regions.
 
  <img width="1919" height="1031" alt="sum of sale and profit by region" src="https://github.com/user-attachments/assets/3d552f27-1e9b-45fe-afb0-a51ca9f77c08" />
 
-## Q14 We need to understand how different product segments are performing as compared to other segments. BA team needs an interactive chart that displays sales figures for each product segment, this chart should clearly show each segment's sales as a percentage of both the previous segment and the top category.
+### Q14 We need to understand how different product segments are performing as compared to other segments. BA team needs an interactive chart that displays sales figures for each product segment, this chart should clearly show each segment's sales as a percentage of both the previous segment and the top category.
 
  We can use funnel chart for this.
  
  <img width="1919" height="1030" alt="image" src="https://github.com/user-attachments/assets/f5b705ab-ad37-4902-becc-637f4b7dc087" />
 
- ## Q15 Clients have also come out with a challenging problem: they want a bar chart only (2d graph) that will show sales per year and by region, because the current approach to analysing yearly sales trends lacks depth and fails to provide actionable insights into regional sales dynamics.
+ ### Q15 Clients have also come out with a challenging problem: they want a bar chart only (2d graph) that will show sales per year and by region, because the current approach to analysing yearly sales trends lacks depth and fails to provide actionable insights into regional sales dynamics.
 
  <img width="1918" height="1031" alt="image" src="https://github.com/user-attachments/assets/ff9d9b17-ecdc-4c33-ab55-4b0371c95d18" />
 
 
- ## Q16 As Global SuperStore has been your client for a long time and this is the time to give them the customer loyalty award, your boss asked you to create some free visuals for them that could help them in enhancing and building their business and strategy.
+ ### Q16 As Global SuperStore has been your client for a long time and this is the time to give them the customer loyalty award, your boss asked you to create some free visuals for them that could help them in enhancing and building their business and strategy.
 
  Free Visuals
  <img width="1919" height="1029" alt="image" src="https://github.com/user-attachments/assets/be2d17cd-e8c6-4a32-89ab-366f31c06f58" />
@@ -134,11 +134,11 @@ Once you click on this button you will get window as shown in below snap.
  <img width="1919" height="1031" alt="image" src="https://github.com/user-attachments/assets/eb6e4825-a45a-4a56-99f1-3144088c794d" />
  
 
-## Q17 The client requires a visual representation to display the status of order processing. Orders will be classified as delayed if the shipping date exceeds the order date by more than two days.
+### Q17 The client requires a visual representation to display the status of order processing. Orders will be classified as delayed if the shipping date exceeds the order date by more than two days.
 
 <img width="1919" height="1031" alt="image" src="https://github.com/user-attachments/assets/8fdc4fa5-bcc0-4aac-b790-b834ade5f8cf" />
 
-## Q18 The client requires a detailed analysis to understand sales patterns based on the day of the week. They need a pie chart that visually compares the average sales volumes on weekends versus weekdays. This will help in identifying any significant differences in consumer behaviour and sales performance, enabling more informed strategic decisions for marketing and resource allocation.
+### Q18 The client requires a detailed analysis to understand sales patterns based on the day of the week. They need a pie chart that visually compares the average sales volumes on weekends versus weekdays. This will help in identifying any significant differences in consumer behaviour and sales performance, enabling more informed strategic decisions for marketing and resource allocation.
 
 Switch:
 
@@ -161,7 +161,7 @@ Whenever you use var you must have to use return, otherwise value won’t get di
 
 <img width="1919" height="1029" alt="image" src="https://github.com/user-attachments/assets/f1762a61-4ec5-4509-bc4b-e9add0607a1e" />
 
-## Q19 The company, CA, seeks a comprehensive analysis of sales data segmented by financial months and financial quarters. This breakdown will reveal sales performance trends and patterns within each fiscal period, facilitating effective strategic planning and accurate financial forecasting.
+### Q19 The company, CA, seeks a comprehensive analysis of sales data segmented by financial months and financial quarters. This breakdown will reveal sales performance trends and patterns within each fiscal period, facilitating effective strategic planning and accurate financial forecasting.
 
 So, Financial years start with April and ends at March (1st April to 31st March)
 Logic will month>3, month-3 else month+9
@@ -182,7 +182,7 @@ if(fqtr>=2, fqtr-1, fqtr+3)
 
 <img width="1919" height="1030" alt="image" src="https://github.com/user-attachments/assets/bcb08582-bda8-4a61-ae4d-91cc7751c677" />
 
-## Q20 The company, Finance Manager, requires an analysis to determine the average cost per unit, segmented by category and subcategory. This detailed breakdown should provide insights into cost distribution and highlight areas for potential cost optimization, aiding in more precise budgeting and pricing strategies.               Cost Price = Sale Price – Profit – Shipping Cost
+### Q20 The company, Finance Manager, requires an analysis to determine the average cost per unit, segmented by category and subcategory. This detailed breakdown should provide insights into cost distribution and highlight areas for potential cost optimization, aiding in more precise budgeting and pricing strategies.               Cost Price = Sale Price – Profit – Shipping Cost
 
 Cost/unit = 
 
@@ -190,7 +190,7 @@ Cost/unit =
 
 <img width="1918" height="1031" alt="image" src="https://github.com/user-attachments/assets/5ef07146-91ea-425e-8f56-d992451b1e81" />
 
-## Q21 Management wants to cluster its customers in different age groups. 14-19	        Teen, 20-30	         Young, 30-40 	Adult, 40-50 	Old Adult, >50     	Old. After Clustering, companies want a visual that will show total numbers   of consumers in each category and what is the contribution of each category to total consumer population.
+### Q21 Management wants to cluster its customers in different age groups. 14-19	        Teen, 20-30	         Young, 30-40 	Adult, 40-50 	Old Adult, >50     	Old. After Clustering, companies want a visual that will show total numbers   of consumers in each category and what is the contribution of each category to total consumer population.
 
 Category = 
 
@@ -209,7 +209,7 @@ return
     
 
     
-## Q22 Clients have given the requirement to categorise the Income into different groups. 0-30k 	             A,  30K-60K 	             B,  60K-100K    	    C,  100K -150K     	    D, >150K               	    E. Now, he wants a visual that will find the numbers of orders placed as per age category and income category in different regions.
+### Q22 Clients have given the requirement to categorise the Income into different groups. 0-30k 	             A,  30K-60K 	             B,  60K-100K    	    C,  100K -150K     	    D, >150K               	    E. Now, he wants a visual that will find the numbers of orders placed as per age category and income category in different regions.
 
     Age Category = 
     
