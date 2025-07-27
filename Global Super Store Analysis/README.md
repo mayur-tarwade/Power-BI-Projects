@@ -67,6 +67,21 @@ and all the visual will changes as per these selection.
 
 <img width="1919" height="1032" alt="Screenshot 2025-07-26_6" src="https://github.com/user-attachments/assets/7407497b-c1e3-4ecb-bc05-0b0f6743cfb5" />
 
+The company is pleased with the dashboard you have built so far; however, the company has suggested some new additions and some editing.
+ 
+## Q7 The CEO observed that the total sales and total profit values fluctuate with interactions on the graph. They now require a fixed value for these metrics, separately from the dynamic values that change with visual interactions, so that they can always have an eye on the totals.
+
+For this we have to disconnect the visual's interaction with all the visuals. This option is avaulable in Formate tab as Edit Interactions.We have to select None option wich is gray in snap.
+
+<img width="1919" height="1030" alt="Edit interaction" src="https://github.com/user-attachments/assets/0fe7e4b6-b663-4bf8-9b6b-f9b83f690a96" />
+
+so because of above slection the visuals dont get filter as per the slicers selection.
+
+<img width="1122" height="536" alt="Edit interaction-2" src="https://github.com/user-attachments/assets/fafc75f7-43b2-49d6-9dc4-ee9b88ce5ba8" />
+
+
+
+
 
 
 
