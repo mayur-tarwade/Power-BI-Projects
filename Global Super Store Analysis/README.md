@@ -371,6 +371,13 @@ return
 
 <img width="151" height="155" alt="Avg Daily Sales" src="https://github.com/user-attachments/assets/e2c85d36-1ac2-44cd-82bd-7882dfb86e19" />
 
+### Q32 The client requests a summary of the total sales for each month in the year 2019, specifically focusing on the sales from the last two financial quarters. This detailed monthly and quarterly breakdown will aid in assessing the performance during different periods of the year.
+
+<img width="241" height="284" alt="monthly sale in year" src="https://github.com/user-attachments/assets/5ca7b362-dee1-4165-85b1-9a9b9960cb2a" />
+
+It seems that there is only two quaters data available for the year of 2019.
+
+
 
 
 
