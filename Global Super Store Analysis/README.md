@@ -291,6 +291,20 @@ Average =
 
   <img width="1919" height="1030" alt="Region and age category" src="https://github.com/user-attachments/assets/e9633b86-16c2-4948-ac53-e96b2a0a98af" />
 
+  ### Q26 The client requests an analysis of the count of high-value customers segmented by region. High-value  orders are defined as those who have made a purchase exceeding $1,500 with a profit percentage of at least 25% for that specific order.Client also wants to know out of total orders of that    region how much population is high value customers.
+
+  High Value Customer = 
+  
+  CALCULATE(COUNT(Orders[Order ID]), FILTER(Orders, Orders[Sales]>1500), FILTER(Orders,Orders[Profit %]>25))
+  
+  HV Customer Population% =
+  
+  ([High Value Customer]/COUNT(Orders[Order ID]))*100
+
+  <img width="828" height="673" alt="image" src="https://github.com/user-attachments/assets/1481923e-48df-4969-b414-3fd61e9d7c33" />
+
+
+
 
 
 
