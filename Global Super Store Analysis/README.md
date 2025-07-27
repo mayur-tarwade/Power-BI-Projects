@@ -260,11 +260,17 @@ mp - Orders[Cost/Unit]
 CLV = 
 
 var  cust = Customer[Customer ID]
+
 var  sale = CALCULATE(sum(Orders[Sales]), FILTER(Orders, Orders[Customer ID] = cust ))
+
 var  quantity = CALCULATE(sum(Orders[Quantity]), FILTER(Orders, Orders[Customer ID] = cust ))
+
 var  profit = CALCULATE(AVERAGE(Orders[Profit Margin]), FILTER(Orders, Orders[Customer ID] = cust ))
+
 var  purchase = CALCULATE(DISTINCTCOUNT(Orders[Order ID]), FILTER(Orders, Orders[Customer ID] = cust ))
+
 var  avg_order_value = sale/quantity
+
 return
 (avg_order_value * profit)/purchase
 
