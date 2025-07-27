@@ -466,6 +466,44 @@ SaleDifference/top1
 <img width="1478" height="483" alt="top 10 deviation" src="https://github.com/user-attachments/assets/1119cb85-c19c-4e10-9ecc-500f0a5cb333" />
 
 
+ ### Q39 Evaluate the year-over-year growth in new customer acquisition and the percentage growth in the total customer base. This analysis will help the company understand the effectiveness of its customer acquisition strategies and track the expansion of its customer base over time, providing insights for future marketing and retention efforts.
+
+ Customer Base = 
+ 
+var year = SELECTEDVALUE(Orders[Order Date].[Year])
+
+-- for current year
+
+var churned = if(year=2019, 
+            CALCULATE(COUNTROWS('Retention Table'),FILTER('Retention Table','Retention Table'[Last Purchase Date]<year)),
+            CALCULATE(COUNTROWS('Retention Table'),FILTER('Retention Table','Retention Table'[Last Purchase Date]<=year))
+            )
+            
+var new = CALCULATE(COUNTROWS('Retention Table'), FILTER('Retention Table','Retention Table'[First Purchase Date]<=year))
+
+var current_base = new - churned
+
+-- for previous year
+
+var previous_year = year-1
+
+var previous_churned = if(previous_year=2019, 
+            CALCULATE(COUNTROWS('Retention Table'),FILTER('Retention Table','Retention Table'[Last Purchase Date]<previous_year)),
+            CALCULATE(COUNTROWS('Retention Table'),FILTER('Retention Table','Retention Table'[Last Purchase Date]<=previous_year))
+            )
+            
+ var previous_new = CALCULATE(COUNTROWS('Retention Table'), FILTER('Retention Table','Retention Table'[First Purchase Date]<=previous year))
+ 
+ var previous_base = previous_new - previous_churned
+ 
+return 
+if(year = 2016, " ",(current_base - previous_base)/ previous_base)
+
+<img width="458" height="227" alt="y-o-y new customer" src="https://github.com/user-attachments/assets/a3c8bf24-445f-4ac4-93a9-e07279fe650c" />
+
+
+
+
 
 
 
