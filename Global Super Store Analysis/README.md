@@ -182,6 +182,16 @@ if(fqtr>=2, fqtr-1, fqtr+3)
 
 <img width="1919" height="1030" alt="image" src="https://github.com/user-attachments/assets/bcb08582-bda8-4a61-ae4d-91cc7751c677" />
 
+## Q20 The company, Finance Manager, requires an analysis to determine the average cost per unit, segmented by category and subcategory. This detailed breakdown should provide insights into cost distribution and highlight areas for potential cost optimization, aiding in more precise budgeting and pricing strategies.               Cost Price = Sale Price – Profit – Shipping Cost
+
+Cost/unit = 
+
+(Orders [Sale]-Orders [Price]-Orders [Shipping Cost]/Orders [Quantity])
+
+<img width="1918" height="1031" alt="image" src="https://github.com/user-attachments/assets/5ef07146-91ea-425e-8f56-d992451b1e81" />
+
+
+
 
 
 
