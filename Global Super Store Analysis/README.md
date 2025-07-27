@@ -53,6 +53,11 @@ Total Customers - 1.59K
 
 So, Canada and EMEA are the markets where we need to focus our efforts to boost.
 
+## Q5-   To  Boost their business, Global Superstore thought of planning their business quarterly. For that they need to know their overall sales for each quarter.
+
+<img width="1919" height="1031" alt="Dashboard_5" src="https://github.com/user-attachments/assets/1f8f4985-2bed-4341-a768-26e0ab4e7c5c" />
+
+
 
 ## Dashboard Snaps
 
