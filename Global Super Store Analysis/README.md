@@ -92,7 +92,7 @@ We have provided clear button on slicers with which user can deselect all the sl
 
 ## Q10 Global Superstore has been frequenting your desk with numerous minor queries, causing interruptions to other ongoing projects within the company. In response to this challenge, your boss has tasked you with developing a solution that empowers end-users (Global Super Store) to obtain answers to their questions independently. By implementing a user-friendly tool or feature, such as a searchable database or an interactive FAQ system, users can simply type their queries and retrieve instant responses. This initiative aims to enhance efficiency, reduce dependency on direct support, and allow for smoother workflow across all projects.
 
-For this we have provised in-build feature of power bi that F&A Ask Anything button.
+For this we have provided in-build feature of power bi that F&A Ask Anything button.
 
 <img width="1290" height="204" alt="ask anything" src="https://github.com/user-attachments/assets/05d688bf-e332-4fd2-88ce-27544fa3d144" />
 
