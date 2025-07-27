@@ -104,9 +104,7 @@ Once you click on this button you will get window as shown in below snap.
 <img width="1919" height="1031" alt="sum of profit by country" src="https://github.com/user-attachments/assets/921b1b2e-b934-4661-be0e-4c8b7d6483ff" />
 
 
-## Q12 The client has specified some visualisation specifications to you: -
- He wants that in the visuals that will display the profit chart, the colour of the country with lowest profit should be red and colour of country with the highest profit to be green and in between values to be coloured as gradient.
-For the visual that will be displaying the sales, client have made a request to show that the countries where sales are
+## Q12 The client has specified some visualisation specifications to you: -He wants that in the visuals that will display the profit chart, the colour of the country with lowest profit should be red and colour of country with the highest profit to be green and in between values to be coloured as gradient.For the visual that will be displaying the sales, client have made a request to show that the countries where sales are
 
  <80,000 should be coloured dark red,
  
