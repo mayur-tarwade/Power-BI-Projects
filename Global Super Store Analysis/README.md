@@ -204,7 +204,8 @@ return
             "Old"
     )
 
-    <img width="839" height="639" alt="image" src="https://github.com/user-attachments/assets/4d7aeefe-e370-4b4d-9be3-f11e16de6305" />
+    <img width="839" height="639" alt="image" src="https://github.com/user-attachments/assets/d05e7a14-22ef-4736-a653-5f1a7f109eec" />
+
     
 
 ## Q22 Clients have given the requirement to categorise the Income into different groups. 0-30k 	             A,  30K-60K 	             B,  60K-100K    	    C,  100K -150K     	    D, >150K               	    E. Now, he wants a visual that will find the numbers of orders placed as per age category and income category in different regions.
