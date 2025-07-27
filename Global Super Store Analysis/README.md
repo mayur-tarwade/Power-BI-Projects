@@ -190,6 +190,54 @@ Cost/unit =
 
 <img width="1918" height="1031" alt="image" src="https://github.com/user-attachments/assets/5ef07146-91ea-425e-8f56-d992451b1e81" />
 
+## Q21 Management wants to cluster its customers in different age groups. 14-19	        Teen, 20-30	         Young, 30-40 	Adult, 40-50 	Old Adult, >50     	Old. After Clustering, companies want a visual that will show total numbers   of consumers in each category and what is the contribution of each category to total consumer population.
+
+Category = 
+
+var Age = DATEDIFF (Customer [Date of Birth], DATE (2019,12,31), YEAR)
+return
+    SWITCH (TRUE (),
+            Age<=19,"Teen",
+            Age>20 && Age<=30,"Young",
+            Age>30 && Age< 40,"Adult",
+            Age>40 && Age< 50,"Old Adult",
+            "Old"
+    )
+
+    <img width="839" height="639" alt="image" src="https://github.com/user-attachments/assets/4d7aeefe-e370-4b4d-9be3-f11e16de6305" />
+    
+
+## Q22 Clients have given the requirement to categorise the Income into different groups. 0-30k 	             A,  30K-60K 	             B,  60K-100K    	    C,  100K -150K     	    D, >150K               	    E. Now, he wants a visual that will find the numbers of orders placed as per age category and income category in different regions.
+
+    Age Category = 
+    
+var Age = DATEDIFF (Customer [Date of Birth], DATE (2019,12,31), YEAR)
+return
+    SWITCH (TRUE (),
+            Age<=19,"Teen",
+            Age>20 && Age<=30,"Young",
+            Age>30 && Age< 40,"Adult",
+            Age>40 && Age< 50,"Old Adult",
+            "Old")
+            
+Income Group = 
+
+var grp = Customer [Yearly Income]
+return
+SWITCH (TRUE (),
+        grp<=30000,"A",
+        grp>30000 && grp<=60000,"B",
+        grp>60000 && grp<=100000,"C",
+        grp>100000 && grp<=150000,"D","E"
+)
+
+<img width="940" height="428" alt="image" src="https://github.com/user-attachments/assets/c24cad0c-27c1-4607-82d4-8434c983f230" />
+
+
+
+
+
+
 
 
 
