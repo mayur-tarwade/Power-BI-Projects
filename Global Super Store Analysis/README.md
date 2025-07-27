@@ -427,6 +427,17 @@ MAXX(TopProduct, Orders[Product Name])
 
 <img width="531" height="440" alt="most sold product" src="https://github.com/user-attachments/assets/0fc1cfd7-76e1-424d-87e4-682df51aa77c" />
 
+### Q35 Analyse the company's product portfolio to determine the top 10 products that contribute the most to overall profitability.
+
+Total Profit = 
+
+CALCULATE(sum(Orders[Profit]), all(Orders))
+Top Ten by Contribution = [Profit Measure] / [Total Profit] press %
+
+<img width="921" height="326" alt="top 10 in profit" src="https://github.com/user-attachments/assets/8b468b38-e236-41ee-a562-54b3562959a7" />
+
+
+
 
 
 
