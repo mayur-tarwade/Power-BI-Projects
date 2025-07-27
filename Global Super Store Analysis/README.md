@@ -235,6 +235,18 @@ SWITCH (TRUE (),
 
 <img width="940" height="428" alt="image" src="https://github.com/user-attachments/assets/c24cad0c-27c1-4607-82d4-8434c983f230" />
 
+### Q23 The client wants a card that will show the sales from the date 15th April 2019 to 15th November 2019.
+
+Here we are using DAX CALCULATE.
+
+CALCULATE = CALCULATE (Expression, FILTER ())
+FILTER = FILTER (Table, Filter expression)
+E.g. 
+Desired Sale = CALCULATE (sum(Orders[Sales]), FILTER(Orders,Orders[Order Date]>DATE(2019, 4, 15)), FILTER(Orders,Orders[Order Date]<DATE(2019, 11, 15)))
+
+<img width="448" height="199" alt="sale between dates" src="https://github.com/user-attachments/assets/e4390783-5df3-4fb7-beac-fae6ecc286ce" />
+
+
 
 
 
