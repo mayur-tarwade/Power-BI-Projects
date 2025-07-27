@@ -285,6 +285,7 @@ Average =
  var female = CALCULATE(AVERAGE(Customer[Yearly Income]), FILTER(Customer,Customer[Gender] = "F"))
  
  return
+ 
  if(male>Customer[Yearly Income] && Customer[Gender] = "M", "Under Average",
     if(female>Customer[Yearly Income] && Customer[Gender] = "F", "Under Average","Over Average"))
 
