@@ -246,6 +246,33 @@ Desired Sale = CALCULATE (sum(Orders[Sales]), FILTER(Orders,Orders[Order Date]>D
 
 <img width="448" height="199" alt="sale between dates" src="https://github.com/user-attachments/assets/e4390783-5df3-4fb7-beac-fae6ecc286ce" />
 
+### Q24 Global Super Store wants to value their   top 10 customers for their loyalty towards the store. Loyalty will be calculated on the basis of CLV Score [CLV score is Customer Loyalty Value Score]. CLV score is calculated: - CLV = (Average Order Value* Average Profit Margin)/ Purchase Frequency.
+
+Formula for CLV                          
+CLV  =      (Average Order Value * Average Profit Margin ) / Purchase Frequency
+
+Profit Margin =
+
+var mp = (Orders[Sales])/(Orders[Quantity]*(1-Orders[Discount]))
+return
+mp - Orders[Cost/Unit] 
+
+CLV = 
+
+var  cust = Customer[Customer ID]
+var  sale = CALCULATE(sum(Orders[Sales]), FILTER(Orders, Orders[Customer ID] = cust ))
+var  quantity = CALCULATE(sum(Orders[Quantity]), FILTER(Orders, Orders[Customer ID] = cust ))
+var  profit = CALCULATE(AVERAGE(Orders[Profit Margin]), FILTER(Orders, Orders[Customer ID] = cust ))
+var  purchase = CALCULATE(DISTINCTCOUNT(Orders[Order ID]), FILTER(Orders, Orders[Customer ID] = cust ))
+var  avg_order_value = sale/quantity
+return
+(avg_order_value * profit)/purchase
+
+<img width="1106" height="515" alt="CLV" src="https://github.com/user-attachments/assets/f864df87-e028-4a8a-a1ec-add8f2bfc4a9" />
+
+
+
+
 
 
 
