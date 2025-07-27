@@ -436,6 +436,13 @@ Top Ten by Contribution = [Profit Measure] / [Total Profit] press %
 
 <img width="921" height="326" alt="top 10 in profit" src="https://github.com/user-attachments/assets/8b468b38-e236-41ee-a562-54b3562959a7" />
 
+### Q36 Determine the leading product category for each year by analysing annual sales data. This analysis will help identify trends and shifts in consumer preferences, enabling the company to make informed decisions on inventory management, marketing strategies, and product development for sustained growth.
+
+Rank_1/yr = if (RANKX(all(Orders[Category]),[Sales Measure]) = 1, [Sales Measure], BLANK())
+
+<img width="438" height="391" alt="image" src="https://github.com/user-attachments/assets/d1faa9d6-d71e-4451-8b76-bf2037cd0a37" />
+
+
 
 
 
