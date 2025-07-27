@@ -510,6 +510,23 @@ SUMMARIZE(Orders,
 
  <img width="1918" height="1028" alt="retesion table" src="https://github.com/user-attachments/assets/0d904c7d-f4b8-44b7-b053-3c7dc67b256b" />
 
+ ### Q40 Client wants a visual where he will have authority to select the profit % and only the country that lies in that profit % range should be displayed.
+
+ Profit Percentage = ([Profit Measure]/[Sales Measure])*100
+ 
+Dynamic Profit = 
+
+var minimum = min('Profit Slider'[Profit Slider])
+
+var maximum = max('Profit Slider'[Profit Slider])
+
+return
+if ([Profit Percentage]>=minimum&& [Profit Percentage]<=maximum, [Profit Percentage], BLANK())
+
+<img width="937" height="348" alt="country in profit range" src="https://github.com/user-attachments/assets/3a1eccc3-20f5-48d3-ae95-fc440b89e696" />
+
+
+
 
 
 
