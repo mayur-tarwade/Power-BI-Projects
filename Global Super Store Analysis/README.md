@@ -141,6 +141,7 @@ Once you click on this button you will get window as shown in below snap.
 ## Q18 The client requires a detailed analysis to understand sales patterns based on the day of the week. They need a pie chart that visually compares the average sales volumes on weekends versus weekdays. This will help in identifying any significant differences in consumer behaviour and sales performance, enabling more informed strategic decisions for marketing and resource allocation.
 
 Switch:
+
 Weekend/Weekday = SWITCH (Orders [Day Name],
                                                         “Saturday”, “Weekend”,
                                                          “Sunday”, “Weekend”,
@@ -150,6 +151,7 @@ Weekend/Weekday = SWITCH (Orders [Day Name],
 <img width="984" height="213" alt="image" src="https://github.com/user-attachments/assets/f3ec21e8-335c-46f1-a9ee-7a3c968c84b8" />
 
 Another Approach:
+
 Weekend/Weekday
 var days = FORMAT (Orders [Order Date], ”dddd”)
 return
