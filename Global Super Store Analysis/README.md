@@ -55,7 +55,18 @@ So, Canada and EMEA are the markets where we need to focus our efforts to boost.
 
 ## Q5-   To  Boost their business, Global Superstore thought of planning their business quarterly. For that they need to know their overall sales for each quarter.
 
-<img width="1919" height="1031" alt="Dashboard_5" src="https://github.com/user-attachments/assets/1f8f4985-2bed-4341-a768-26e0ab4e7c5c" />
+<img width="1920" height="1032" alt="Screenshot 2025-07-26_5" src="https://github.com/user-attachments/assets/96266b47-8e1d-4d04-8bb9-01dee264722c" />
+
+# Q6-    After these visuals are built, management would like to incorporate a feature allowing them to select specific segments and categories. This functionality should dynamically adjust all the graph values based on the selected category and segment, providing a tailored view of their data.
+
+To incorporate this feature we have used slicers of Segment and Category. As shown in below snap we see that Segment selected is Consumer and Category is Office Supplies.
+<img width="203" height="362" alt="Slicers" src="https://github.com/user-attachments/assets/1d02b94a-4cd1-486f-ae78-904d4c2c9617" />
+
+and all the visual will changes as per these selection.
+
+<img width="1919" height="1032" alt="Screenshot 2025-07-26_6" src="https://github.com/user-attachments/assets/7407497b-c1e3-4ecb-bc05-0b0f6743cfb5" />
+
+
 
 
 
