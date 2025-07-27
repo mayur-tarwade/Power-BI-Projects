@@ -317,6 +317,15 @@ Average =
 
   <img width="712" height="347" alt="variance" src="https://github.com/user-attachments/assets/2205950a-307c-411b-b423-03ad6517f13a" />
 
+  ### Q28 The client seeks an analysis of the average order value per customer. Furthermore, they request an identification of the top 15 customers based on the highest total order values.
+
+  Avg Order Value = 
+  
+  ([Sales Measure]/CALCULATE(DISTINCTCOUNT(Orders[Order ID])))
+
+  <img width="1106" height="451" alt="Avg Order Value" src="https://github.com/user-attachments/assets/71d018bc-86b3-42da-8b0b-9ca481e2d573" />
+
+
 
 
 
