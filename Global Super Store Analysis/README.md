@@ -355,6 +355,24 @@ Cumulative sum =
 
 <img width="273" height="166" alt="cumsum" src="https://github.com/user-attachments/assets/d3c0c88a-5cbb-4957-8fb2-4a911dce4972" />
 
+### Q31 The CEO has requested a report showing the average daily sales amount across all years (2016, 2017, 2018, and 2019).
+
+Average Sales = 
+
+var lowest = min(Orders[Order Date])
+
+var highest = max(Orders[Order Date])
+
+var numdays = 
+DATEDIFF(lowest,highest,DAY)
+
+return
+[Sales Measure]/numdays
+
+<img width="151" height="155" alt="Avg Daily Sales" src="https://github.com/user-attachments/assets/e2c85d36-1ac2-44cd-82bd-7882dfb86e19" />
+
+
+
 
 
 
