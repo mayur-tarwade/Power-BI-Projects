@@ -115,6 +115,7 @@ Once you click on this button you will get window as shown in below snap.
 
  <img width="1919" height="1031" alt="sum of sale and profit by region" src="https://github.com/user-attachments/assets/3d552f27-1e9b-45fe-afb0-a51ca9f77c08" />
 
+## Q14 We need to understand how different product segments are performing as compared to other segments. BA team needs an interactive chart that displays sales figures for each product segment, this chart should clearly show each segment's sales as a percentage of both the previous segment and the top category.
 
  <img width="1919" height="1030" alt="image" src="https://github.com/user-attachments/assets/f5b705ab-ad37-4902-becc-637f4b7dc087" />
 
