@@ -208,6 +208,7 @@ return
 
     
 
+    
 ## Q22 Clients have given the requirement to categorise the Income into different groups. 0-30k 	             A,  30K-60K 	             B,  60K-100K    	    C,  100K -150K     	    D, >150K               	    E. Now, he wants a visual that will find the numbers of orders placed as per age category and income category in different regions.
 
     Age Category = 
