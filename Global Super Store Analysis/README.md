@@ -95,6 +95,9 @@ We have provided clear button on slicers with which user can deselect all the sl
 For this we have provided in-build feature of power bi that F&A Ask Anything button.
 
 <img width="1290" height="204" alt="ask anything" src="https://github.com/user-attachments/assets/05d688bf-e332-4fd2-88ce-27544fa3d144" />
+
+Once you click on this button you will get window as shown in below snap.
+
 <img width="1505" height="728" alt="ask anything_2" src="https://github.com/user-attachments/assets/797d5ccd-65ec-40f3-aada-56e097fffc1d" />
 
 
