@@ -22,4 +22,8 @@ Refer to 2022, 2023 and 2024 folders for only specific data for those seasons
 
 ### Report Link - 
 
-[Tata_IPL_Insight_Report.pptx](https://github.com/user-attachments/files/21920322/Tata_IPL_Insight_Report.pptx)
+[Tata_IPL_Insight_Report.pptx](https://github.com/user-attachments/files/21921100/Tata_IPL_Insight_Report.pptx)
+
+[Tata IPL Dashboard – Insight Report (1).pdf](https://github.com/user-attachments/files/21921118/Tata.IPL.Dashboard.Insight.Report.1.pdf)
+
+
