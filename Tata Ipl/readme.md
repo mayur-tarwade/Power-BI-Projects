@@ -21,4 +21,5 @@ points_table.csv - Overall points table of teams across seasons
 Refer to 2022, 2023 and 2024 folders for only specific data for those seasons
 
 ### Report Link - 
-https://github.com/mayur-tarwade/Power-BI-Projects/blob/main/Tata%20Ipl/Tata_IPL_Insight_Report.pptx
+
+[Tata_IPL_Insight_Report.pptx](https://github.com/user-attachments/files/21920322/Tata_IPL_Insight_Report.pptx)
