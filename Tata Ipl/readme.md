@@ -9,8 +9,13 @@ Source : https://www.espncricinfo.com/ (opens in a new tab)">https://www.espncri
 Data has been scraped and transformed into following files. The data provided in match level summary as well as ball-by-ball details format for all matches from 2008 till 2024 season
 
 all_season_summary.csv - Summary of all matches across all seasons
+
 all_season_details.csv - Ball-by-ball details of all matches across all seasons
+
 all_season_batting_card.csv - Batting performance of players, all matches across all seasons
+
 all_season_bowling_card.csv - Bowling performance of players, all matches across all seasons
+
 points_table.csv - Overall points table of teams across seasons
+
 Refer to 2022, 2023 and 2024 folders for only specific data for those seasons
