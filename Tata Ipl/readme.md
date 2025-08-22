@@ -26,4 +26,26 @@ Refer to 2022, 2023 and 2024 folders for only specific data for those seasons
 
 [Tata IPL Dashboard – Insight Report (1).pdf](https://github.com/user-attachments/files/21921118/Tata.IPL.Dashboard.Insight.Report.1.pdf)
 
+### Dashboard Snaps
+Home Page
+
+<img width="1462" height="809" alt="Home Page" src="https://github.com/user-attachments/assets/0a4ce9ce-e061-4832-8517-b0687e9cced5" />
+
+IPL Overview
+
+<img width="1468" height="817" alt="IPL Overview" src="https://github.com/user-attachments/assets/711b854c-1e52-46b7-b21a-d54c61e90c7a" />
+
+Player Profile
+
+<img width="1464" height="813" alt="Player Profile" src="https://github.com/user-attachments/assets/84dd25ec-aebd-41be-8e43-71588c50f6ee" />
+
+Team Profile
+
+<img width="1465" height="812" alt="Team Profile" src="https://github.com/user-attachments/assets/99bd7886-88a9-4788-a4a7-5ea3399aff6e" />
+
+
+
+
+
+
 
