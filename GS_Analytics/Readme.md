@@ -23,18 +23,24 @@ This dashboard should aim to empower Global Super Store with actionable insights
 Objective
 
 Provide a high-level, numbers-driven view of overall business performance.
+
 Revenue Trend:
  Overall sales show a clear upward trend, with ~18–22% cumulative growth over the analyzed period, indicating steady market demand.
+ 
 Profitability:
  Despite revenue growth, profit margin fluctuates between ~8% and 14%, suggesting that cost structure and discounting impact profitability.
+ 
 Year-over-Year Growth:
  Sales Growth % varies year by year, ranging from ~5% in slower periods to ~20%+ during high-growth years.
+ 
 Category Contribution:
 Technology contributes approximately 35–40% of total sales
 Furniture contributes around 30–32%
 Office Supplies account for ~28–30%
+
 Geographic Spread:
  Top 5 countries contribute ~55–60% of total revenue, while the remaining revenue is distributed across multiple smaller markets.
+ 
 Business Implication
 High revenue growth should be paired with margin-focused monitoring, especially in fast-growing regions.
 
@@ -42,16 +48,21 @@ High revenue growth should be paired with margin-focused monitoring, especially 
 Objective
 
 Identify high-performing and underperforming products.
+
 Category-Level Profitability:
 Technology delivers the highest profit margin (~15–18%)
 Office Supplies maintain moderate margins (~10–12%)
 Furniture margins drop to ~5–8%, with some sub-categories operating at a loss
+
 Loss-Making Sub-Categories:
  Around 15–20% of sub-categories show negative profit, despite contributing ~10–12% of sales, signalling inefficient pricing or high logistics cost.
+ 
 Revenue Concentration:
  Top 5 sub-categories generate ~45% of total sales, showing strong revenue concentration.
+ 
 Margin Variability:
  Profit Margin % varies by more than 20 percentage points across sub-categories.
+ 
 Business Implication
 Reducing losses in just the bottom 20% of sub-categories could significantly improve overall profitability.
 
