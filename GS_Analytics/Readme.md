@@ -118,7 +118,8 @@ Another segment contributes ~40% of orders but lower average order value
 Business Implication
 Improving AOV by even 5–8% in mid-tier customers can lead to meaningful revenue uplift without customer acquisition costs.
 
-Overall Quantified Conclusions
+### Overall Quantified Conclusions
+
 Revenue growth (~20%) is stronger than profit growth (~10–12%), highlighting margin pressure.
 ~20% of products cause a disproportionate share of losses, making them prime optimization targets.
 Top customers (20%) generate ~80%–like impact, reinforcing Pareto behavior.
